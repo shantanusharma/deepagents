@@ -1,5 +1,5 @@
 version = 1
-revision = 5
+revision = 3
 requires-python = ">=3.12, <4.0"
 resolution-markers = [
     "python_full_version >= '3.15'",
@@ -1017,7 +1017,7 @@ test = [
 
 [[package]]
 name = "deepagents-acp"
-version = "0.0.13"
+version = "0.0.14"
 source = { editable = "../acp" }
 dependencies = [
     { name = "agent-client-protocol" },
