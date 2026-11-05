@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = "==3.14.*"
 resolution-markers = [
     "platform_machine == 'arm64' and sys_platform == 'darwin'",
@@ -585,7 +585,7 @@ test = [
 
 [[package]]
 name = "deepagents-acp"
-version = "0.0.13"
+version = "0.0.14"
 source = { editable = "../acp" }
 dependencies = [
     { name = "agent-client-protocol" },
