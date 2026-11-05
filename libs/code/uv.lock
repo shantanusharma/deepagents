@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = "==3.14.*"
 resolution-markers = [
     "sys_platform == 'win32'",
@@ -2688,7 +2688,7 @@ wheels = [
 
 [[package]]
 name = "langchain-modal"
-version = "0.0.7"
+version = "0.0.8"
 source = { editable = "../partners/modal" }
 dependencies = [
     { name = "deepagents" },
