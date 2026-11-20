@@ -2,6 +2,21 @@
 
 # Changelog
 
+## [0.0.8](https://github.com/shantanusharma/deepagents/compare/langchain-runloop==0.0.7...langchain-runloop==0.0.8) (2026-11-20)
+
+
+### Features
+
+* add partner packages for modal and runloop ([#1207](https://github.com/shantanusharma/deepagents/issues/1207)) ([497846f](https://github.com/shantanusharma/deepagents/commit/497846f94432e058981fd7a1f5782d906f4383d2))
+* **runloop:** add blueprint bootstrapping for Runloop sandboxes ([#3556](https://github.com/shantanusharma/deepagents/issues/3556)) ([13dafd8](https://github.com/shantanusharma/deepagents/commit/13dafd8823c4b530c8e096012733ad74cd501b59))
+* **sdk:** add per-command `timeout` override to `execute()` ([#1154](https://github.com/shantanusharma/deepagents/issues/1154)) ([49277d4](https://github.com/shantanusharma/deepagents/commit/49277d45a026c86b5bf176142dcb1dfc2c7643ae))
+
+
+### Bug Fixes
+
+* **runloop:** require deepagents 0.7.x ([#5149](https://github.com/shantanusharma/deepagents/issues/5149)) ([ea09982](https://github.com/shantanusharma/deepagents/commit/ea099822621cc92e4e10e6dc254f474f607213db))
+* **sdk:** guard timeout forwarding for older backend packages ([#1461](https://github.com/shantanusharma/deepagents/issues/1461)) ([5fb4450](https://github.com/shantanusharma/deepagents/commit/5fb44505dd327fe88e8db6f3155cb442524b0788))
+
 ## [0.0.7](https://github.com/langchain-ai/deepagents/compare/langchain-runloop==0.0.6...langchain-runloop==0.0.7) (2026-07-29)
 
 ### Bug Fixes
